@@ -4,6 +4,13 @@
 
 <head>
     <title>My First Website</title>
+    <meta charset="UTF-8">
+    <meta name="Description" content="Free coekies">
+    <meta name="keywords" content="HTML, test, begin">
+    <meta name="author" content="ozan">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="refresh" content="30">
+
 </head>
 <body style="background-color: rgb(145, 136, 136);">
 <!---Menu Html-->
@@ -63,6 +70,19 @@
         <source src="/video/bear.mp4"> 
     </video> 
      
+    <!--buttens-->
+
+
+    <button onclick="doSomething()"style="background-color: rgb(44, 44, 158);color:#28f005;border-radius:5px ;">Click me</button>
+
+    <p id="test">Hello</p>
+
+    <script>
+    function doSomething(){
+        document.getElementById("test").innerHTML = "Goed bye";
+    }
+    </script>
+
     <!-- HTML text formatting tags -->>
 
     <p>This is normal text</p>
@@ -147,7 +167,39 @@
      perspiciatisLorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, blanditiis rem. Dolor perspiciatisLorem ipsum do delectus
       sit exercitationem voluptate, ea iure quos quas veritatis, magnam facere numquam iste, dolorum nemo nisi quaerat.
 </P>
+<!--span = adds markup to text or portion of a document-->
+<!--div = defines a division of a document-->
 
-</body>
+<h1>Hello!</h1>
+<div style="background-color: #28f005">
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iste magnam est inventore quod iusto at unde nihil, et libero corrupti alias eveniet temporibus omnis quos,
+     fugit aliquam qui? Magni! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis esse veniam doloremque culpa temporibus sapiente incidunt, molestiae harum blanditiis et, 
+     corporis corrupti a quasi? Fuga exercitationem est atque dolores voluptatum.
+</p>
+
+<p>
+    <span style="color:aquamarine">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aut minus delectus nisi earum velit excepturi animi? 
+    Alias rem adipisci placeat eum est voluptatum nesciunt voluptatibus ipsa deleniti. Ab, iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Sapiente, quae porro animi dolore autem nemo tempora magnam.
+     Doloribus, distinctio quo quaerat blanditiis pariatur quibusdam error vitae debitis ut voluptas. Molestias!
+</p>
+
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aut minus delectus nisi earum velit excepturi animi? 
+    Alias rem adipisci placeat eum est voluptatum nesciunt voluptatibus ipsa deleniti. Ab, iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Sapiente, quae porro animi dolore autem nemo tempora magnam.
+     Doloribus, distinctio quo quaerat blanditiis pariatur quibusdam error vitae debitis ut voluptas. Molestias!
+</p>
+
+</div>
+
+<!--iframe = embed content from another source into a HTML document
+                ex. used for ads, used in many hacking techniques -->
+
+    <iframe style="border:0"src="ad.html" width="750" height="100">
+
+
+</body> 
 
 </html>
